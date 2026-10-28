@@ -1,6 +1,6 @@
 {
-  "latest": "1.1.1",
-  "url": "https://github.com/sixdayth/vhagarbot-licenses/raw/main/caelmora/caelmora-bot-v1.1.1.zip",
-  "notes": "log บอกละเอียด: ของอะไรเข้ากระเป๋าเท่าไหร่ (นับจากสถานะกระเป๋าจริง) + ตอนฝากคลังบอกเป็นรายการว่าฝากอะไรไปจำนวนเท่าไหร่",
-  "at": "2026-10-28T09:39:59.744Z"
+  "latest": "1.1.2",
+  "url": "https://github.com/sixdayth/vhagarbot-licenses/raw/main/caelmora/caelmora-bot-v1.1.2.zip",
+  "notes": "ฝากคลัง: เก็บออร์บพอดีโควตา (ไม่เกิน 20 อีก), ส่งแพ็กเก็ตแยกตามชนิดของ, บอกชื่อของที่ฝากไม่ได้แทนการเดาว่าแท็บเต็ม, และไม่หยุดวงวนเมื่อฝากได้บางส่วน",
+  "at": "2026-10-28T10:24:49.592Z"
 }
