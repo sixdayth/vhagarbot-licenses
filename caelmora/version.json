@@ -1,6 +1,6 @@
 {
-  "latest": "1.0.8",
-  "url": "https://github.com/sixdayth/vhagarbot-licenses/raw/main/caelmora/caelmora-bot-v1.0.8.zip",
-  "notes": "กระเป๋าเต็ม → เดินไปหาคาฟี ฝากของเข้าคลังอัตโนมัติ (หาแท็บที่ว่างให้) เหลือออร์บอัปสมุดอย่างละ 20 ตั้งได้",
-  "at": "2026-10-28T07:09:49.518Z"
+  "latest": "1.0.9",
+  "url": "https://github.com/sixdayth/vhagarbot-licenses/raw/main/caelmora/caelmora-bot-v1.0.9.zip",
+  "notes": "จับชื่อไอเทมเพิ่มเติมแบบยืดหยุ่นขึ้น (พิมพ์ตกบางพยางค์ยังเก็บได้) + ปุ่ม ตรวจชื่อ บอกทันทีที่ชื่อไม่ตรงกับในเกม พร้อมเสนอชื่อที่ถูก",
+  "at": "2026-10-28T08:02:00.032Z"
 }
