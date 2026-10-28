@@ -1,6 +1,6 @@
 {
-  "latest": "1.0.2",
-  "url": "https://github.com/sixdayth/vhagarbot-licenses/raw/main/caelmora/caelmora-bot-v1.0.2.zip",
-  "notes": "ซ่อมเพื่อนเปิดบอทไม่ขึ้น (Cannot find module publish) + รวมสมุดตามความหายาก + เวลาเก็บของหลังบอสตายทำงานทุกรอบ + ไม่มีออร์บก็ลงเรือต่อได้ + กรองของละเอียดเท่าในเกม",
-  "at": "2026-10-28T05:04:10.615Z"
+  "latest": "1.0.3",
+  "url": "https://github.com/sixdayth/vhagarbot-licenses/raw/main/caelmora/caelmora-bot-v1.0.3.zip",
+  "notes": "เลือกอันดับสมุดได้แล้ว: 1-14 ซื้อตรงไม่ต้องเสี่ยงรวม / รวมเฉพาะอันดับ 15",
+  "at": "2026-10-28T05:22:34.302Z"
 }
