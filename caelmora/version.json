@@ -1,6 +1,6 @@
 {
-  "latest": "1.0.9",
-  "url": "https://github.com/sixdayth/vhagarbot-licenses/raw/main/caelmora/caelmora-bot-v1.0.9.zip",
-  "notes": "จับชื่อไอเทมเพิ่มเติมแบบยืดหยุ่นขึ้น (พิมพ์ตกบางพยางค์ยังเก็บได้) + ปุ่ม ตรวจชื่อ บอกทันทีที่ชื่อไม่ตรงกับในเกม พร้อมเสนอชื่อที่ถูก",
-  "at": "2026-10-28T08:02:00.032Z"
+  "latest": "1.1.0",
+  "url": "https://github.com/sixdayth/vhagarbot-licenses/raw/main/caelmora/caelmora-bot-v1.1.0.zip",
+  "notes": "แก้ใหญ่: ฟิลเตอร์กฎอ่านผิดขั้ว (เป็น allowlist ทั้งที่เกมใช้ blacklist) ทำให้ไม่เก็บของเลย — แก้เป็นค่าเริ่มต้นเก็บ + รองรับเงื่อนไข il + เตือนคีย์ที่ไม่รู้จัก",
+  "at": "2026-10-28T08:26:20.985Z"
 }
