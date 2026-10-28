@@ -1,6 +1,6 @@
 {
-  "latest": "1.1.0",
-  "url": "https://github.com/sixdayth/vhagarbot-licenses/raw/main/caelmora/caelmora-bot-v1.1.0.zip",
-  "notes": "แก้ใหญ่: ฟิลเตอร์กฎอ่านผิดขั้ว (เป็น allowlist ทั้งที่เกมใช้ blacklist) ทำให้ไม่เก็บของเลย — แก้เป็นค่าเริ่มต้นเก็บ + รองรับเงื่อนไข il + เตือนคีย์ที่ไม่รู้จัก",
-  "at": "2026-10-28T08:26:20.985Z"
+  "latest": "1.1.1",
+  "url": "https://github.com/sixdayth/vhagarbot-licenses/raw/main/caelmora/caelmora-bot-v1.1.1.zip",
+  "notes": "log บอกละเอียด: ของอะไรเข้ากระเป๋าเท่าไหร่ (นับจากสถานะกระเป๋าจริง) + ตอนฝากคลังบอกเป็นรายการว่าฝากอะไรไปจำนวนเท่าไหร่",
+  "at": "2026-10-28T09:39:59.744Z"
 }
