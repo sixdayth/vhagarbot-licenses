@@ -1,6 +1,6 @@
 {
-  "latest": "1.0.5",
-  "url": "https://github.com/sixdayth/vhagarbot-licenses/raw/main/caelmora/caelmora-bot-v1.0.5.zip",
-  "notes": "มีสมุดอันดับสูงกว่าที่ตั้งไว้ในกระเป๋า → ใช้เล่มนั้นก่อนไม่ต้องซื้อ (15 มาก่อน 14) + ลงเรือด้วยสมุดที่ยังไม่แรร์ได้ถ้าไม่มีออร์บ",
-  "at": "2026-10-28T05:50:06.136Z"
+  "latest": "1.0.6",
+  "url": "https://github.com/sixdayth/vhagarbot-licenses/raw/main/caelmora/caelmora-bot-v1.0.6.zip",
+  "notes": "เลิกส่ง config.json ใน zip (กันค่าที่ตั้งไว้หายตอนแตกทับ) + สำรอง config ทุกครั้งก่อนอัปเดต + แสดง log ว่าค่าไหนเปลี่ยน + รีเซ็ตค่า dev ที่ติดไปกับแพ็กเกจ",
+  "at": "2026-10-28T06:14:58.116Z"
 }
