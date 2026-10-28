@@ -1,6 +1,6 @@
 {
-  "latest": "1.1.2",
-  "url": "https://github.com/sixdayth/vhagarbot-licenses/raw/main/caelmora/caelmora-bot-v1.1.2.zip",
-  "notes": "ฝากคลัง: เก็บออร์บพอดีโควตา (ไม่เกิน 20 อีก), ส่งแพ็กเก็ตแยกตามชนิดของ, บอกชื่อของที่ฝากไม่ได้แทนการเดาว่าแท็บเต็ม, และไม่หยุดวงวนเมื่อฝากได้บางส่วน",
-  "at": "2026-10-28T10:24:49.592Z"
+  "latest": "1.1.3",
+  "url": "https://github.com/sixdayth/vhagarbot-licenses/raw/main/caelmora/caelmora-bot-v1.1.3.zip",
+  "notes": "- patch window.S ทนตัวเกม build ใหม่ (เกมเปลี่ยนชื่อตัวแปร gate V เป็น M ทำบอทตาบอด Lv?/HP -/-)\n- ตัดแถว ไห/ขวด/เครื่องราง ออกจากบันทึกการทำงาน (ตัวเลขคือชาร์จ ไม่ใช่จำนวนชิ้น)\n- log patch บอกความจริง: ขึ้น 🚫 เมื่อ patch ไม่สำเร็จ",
+  "at": "2026-10-28T14:08:54.694Z"
 }
