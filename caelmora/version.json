@@ -1,6 +1,6 @@
 {
-  "latest": "1.0.3",
-  "url": "https://github.com/sixdayth/vhagarbot-licenses/raw/main/caelmora/caelmora-bot-v1.0.3.zip",
-  "notes": "เลือกอันดับสมุดได้แล้ว: 1-14 ซื้อตรงไม่ต้องเสี่ยงรวม / รวมเฉพาะอันดับ 15",
-  "at": "2026-10-28T05:22:34.302Z"
+  "latest": "1.0.4",
+  "url": "https://github.com/sixdayth/vhagarbot-licenses/raw/main/caelmora/caelmora-bot-v1.0.4.zip",
+  "notes": "ซ่อมอัปสมุดเป็นแรร์: เลือกออร์บตามความหายากจริง (เมจิกต้องใช้ เลื่อนขั้น เท่านั้น ไม่ใช่ ปลุกพลัง/เสริมพลัง)",
+  "at": "2026-10-28T05:30:44.483Z"
 }
