@@ -1,6 +1,6 @@
 {
-  "latest": "1.1.6",
-  "url": "https://github.com/sixdayth/vhagarbot-licenses/raw/main/caelmora/caelmora-bot-v1.1.6.zip",
-  "notes": "ตามหลัง v1.1.5 แบบแก้จุดเดียว: เควสที่เกมไม่ยอมให้วิ่งอัตโนมัติ (เช่น ผนึกโพรงกัดกิน) ทำให้ log เตือนซ้ำทุก 20 วินาที → ตอนนี้ข้ามให้ 10 นาทีแล้วไปเควสถัดไป log ไม่รัว",
-  "at": "2026-10-29T07:33:55.946Z"
+  "latest": "1.1.7",
+  "url": "https://github.com/sixdayth/vhagarbot-licenses/raw/main/caelmora/caelmora-bot-v1.1.7.zip",
+  "notes": "แก้ปุ่มบทพูดเควส: เดิมไปกด <div> ตัวแม่ (qd-act) ที่ครอบ <button> อีกชั้น ทำให้กดต่อไปแล้วเงียบ — ตอนนี้เลือก tag ปุ่มจริงก่อน + ยิง pointerdown/mousedown/up/click ครบชุด และกด ปิด ให้เองเมื่อเป็นหน้าสุดท้ายของบทพูด (ทดสอบสด: บทพูด แกร์ริก 1/2 → 2/2 → ปิดกล่องสำเร็จ)",
+  "at": "2026-10-29T08:02:38.781Z"
 }
