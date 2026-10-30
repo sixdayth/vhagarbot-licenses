@@ -1,6 +1,6 @@
 {
-  "latest": "1.2.9",
-  "url": "https://github.com/sixdayth/vhagarbot-licenses/raw/main/caelmora/caelmora-bot-v1.2.9.zip",
-  "notes": "🔴 แก้ด่วน: v1.2.8 กรอง \"สมุดผี\" แรงเกินไป → บอทมองไม่เห็นสมุดจริงในกระเป๋า (เพื่อนหลายคนเป็น)\n\nสาเหตุ: ช่องสมุดที่อยู่ quickslot (เช่น 33) ยังไม่ sync มาที่ S.panels.inv → confirmed=false → โดนกรองทิ้งทั้งที่เป็นของจริง\n\nแก้: confirmed=false เฉพาะกรณี \"ช่องนั้นมีของแต่ไม่ใช่สมุด\" (id นอก 14848-14900) เท่านั้น ถ้าช่องว่าง = ยังไม่ sync → เก็บไว้ (confirmed=true)",
-  "at": "2026-10-30T14:07:53.784Z"
+  "latest": "1.2.10",
+  "url": "https://github.com/sixdayth/vhagarbot-licenses/raw/main/caelmora/caelmora-bot-v1.2.10.zip",
+  "notes": "🔴 แก้ด่วน (เพื่อนหลายคนเป็น): บอทบอก \"ไม่มีสมุดในกระเป๋า\" ทั้งที่มี\n\nสาเหตุ: โต๊ะนำร่องถูกปิดระหว่าง tick → srvCharts ว่าง → สมุดที่อยู่ quickslot (ช่อง < 20) มองไม่เห็นเลย เพราะ voyagePanel เดิมสแกนเฉพาะ slot >= bagFirst\n\nแก้ 3 จุด:\n1. ก่อนสแกนสมุด → บังคับเปิดโต๊ะ (voyAction state) → อ่าน panel ใหม่ → เห็น srvCharts\n2. sail adapter: ถ้าทั้ง 2 ลิสต์ว่าง → fallback สแกน S.panels.inv ทุกช่อง (รวม quickslot) หา id 14848-14900\n3. กรองสมุดผี (confirmed) ผ่อนปรน: ช่องว่าง/undefined = ยังไม่ sync → เก็บไว้ (เดิมทิ้งหมด = บังคับมองไม่เห็นสมุดจริง)",
+  "at": "2026-10-30T14:35:02.171Z"
 }
