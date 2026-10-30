@@ -1,6 +1,6 @@
 {
-  "latest": "1.2.18",
-  "url": "https://github.com/sixdayth/vhagarbot-licenses/raw/main/caelmora/caelmora-bot-v1.2.18.zip",
-  "notes": "🔴 แก้บอสโลกวนซ้ำ: ตายแล้วไม่กลับไปอีก (จำ \"รุ่น\" บอส + ไม่เชื่อ countdown ค้าง)\n\n· จำ st.at (เวลาเกิดบอส) ที่จัดการไปแล้ว → ถ้า st.at เดิม = ตัวเดิมตายแล้ว = ข้าม ไม่กลับไปอีก\n· trigger เฉพาะ state='up' (บอสเกิดแล้วจริง) → ไม่ไปดัก warn/countdown (นับถอยหลังค้างได้)\n· หลังปราบ: cooldown 60 นาที + ล้าง lastFarmMap ถ้าเป็น map 27\n· ผล: บอสตาย 1 ครั้ง → กลับไป voyage ต่อ → ไม่กลับรังอีกจนกว่าบอสรุ่นใหม่เกิด (st.at ต่างกัน)",
-  "at": "2026-10-30T17:23:12.806Z"
+  "latest": "1.2.19",
+  "url": "https://github.com/sixdayth/vhagarbot-licenses/raw/main/caelmora/caelmora-bot-v1.2.19.zip",
+  "notes": "persist บอสโลก: จำ st.at ลงไฟล์ → restart แล้วยังไม่กลับไปรังบอสที่ตายแล้ว\n\n· v1.2.18 แก้ logic แต่ _lastWbAt หายตอน restart → บอทกลับไปวนรังอีก\n· v1.2.19: เขียน/อ่าน logs/wb-last.json (เหมือน voy-buy note) → จำข้าม restart ได้จริง\n· ผล: บอสตาย → restart → บอทโหลดโน้ต → เห็น st.at เดิม → ข้าม → ไม่กลับรัง ✅",
+  "at": "2026-10-30T17:28:14.707Z"
 }
