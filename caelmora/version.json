@@ -1,6 +1,6 @@
 {
-  "latest": "1.2.17",
-  "url": "https://github.com/sixdayth/vhagarbot-licenses/raw/main/caelmora/caelmora-bot-v1.2.17.zip",
-  "notes": "บอสโลกตายแล้ว = ไม่กลับไปอีก 60 นาที (เดิมพักแค่ 2 นาที → วนกลับไปรังเปล่า)\n\n· หลังปราบสำเร็จ: cooldown 60 นาที + ล้าง lastFarmMap ถ้าเป็น map 27 (ไม่ warp กลับรังบอสเปล่า)\n· หลังถอย/ไม่สำเร็จ: cooldown 5 นาที (บอสอาจยังอยู่ แต่ไปไม่ถึง)\n· ถึงรังแล้วเช็ค status ก่อน: none=ตายแล้วกลับเลย, warn=ยังไม่เกิดกลับก่อน",
-  "at": "2026-10-30T17:19:25.170Z"
+  "latest": "1.2.18",
+  "url": "https://github.com/sixdayth/vhagarbot-licenses/raw/main/caelmora/caelmora-bot-v1.2.18.zip",
+  "notes": "🔴 แก้บอสโลกวนซ้ำ: ตายแล้วไม่กลับไปอีก (จำ \"รุ่น\" บอส + ไม่เชื่อ countdown ค้าง)\n\n· จำ st.at (เวลาเกิดบอส) ที่จัดการไปแล้ว → ถ้า st.at เดิม = ตัวเดิมตายแล้ว = ข้าม ไม่กลับไปอีก\n· trigger เฉพาะ state='up' (บอสเกิดแล้วจริง) → ไม่ไปดัก warn/countdown (นับถอยหลังค้างได้)\n· หลังปราบ: cooldown 60 นาที + ล้าง lastFarmMap ถ้าเป็น map 27\n· ผล: บอสตาย 1 ครั้ง → กลับไป voyage ต่อ → ไม่กลับรังอีกจนกว่าบอสรุ่นใหม่เกิด (st.at ต่างกัน)",
+  "at": "2026-10-30T17:23:12.806Z"
 }
