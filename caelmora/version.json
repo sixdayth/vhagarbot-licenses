@@ -1,6 +1,6 @@
 {
-  "latest": "1.2.19",
-  "url": "https://github.com/sixdayth/vhagarbot-licenses/raw/main/caelmora/caelmora-bot-v1.2.19.zip",
-  "notes": "persist บอสโลก: จำ st.at ลงไฟล์ → restart แล้วยังไม่กลับไปรังบอสที่ตายแล้ว\n\n· v1.2.18 แก้ logic แต่ _lastWbAt หายตอน restart → บอทกลับไปวนรังอีก\n· v1.2.19: เขียน/อ่าน logs/wb-last.json (เหมือน voy-buy note) → จำข้าม restart ได้จริง\n· ผล: บอสตาย → restart → บอทโหลดโน้ต → เห็น st.at เดิม → ข้าม → ไม่กลับรัง ✅",
-  "at": "2026-10-30T17:28:14.707Z"
+  "latest": "1.2.20",
+  "url": "https://github.com/sixdayth/vhagarbot-licenses/raw/main/caelmora/caelmora-bot-v1.2.20.zip",
+  "notes": "อัปเดตใหญ่: ฝาก VIP ทุกโหมด + พุ่งบอสเกาะ + แก้ประตูวาร์ป + เควส E1\n\n📦 ฝาก VIP อัตโนมัติ (หน้าตั้งค่าหลัก): เปิดรูปมงกุฎ → เปิดคลัง → ฝากเข้าแท็บพิเศษ ทุก N นาที ใช้ได้ทุกโหมด (เควส/ฟาร์ม/voyage/บอสโลก) · ล็อกของใน 'จำกัดจำนวน' ไว้ไม่ถูกฝาก\n\n🐉 พุ่งบอสเกาะ: ใช้สกิลพุ่ง (leap) แทนเดินธรรมดา → เร็วกว่า 2.5x · กระโดดข้ามเสา · พุ่งใส่erอมอนได้มานาคืน · ห่างรัง >20 ช่อง = พุ่ง, <=20 = เดิน+สู้\n\n🚪 ประตูวาร์ป: เปิดประตูแล้ว → หยุด field roam → เดินไปยืนบนประตู → คลิกแถบ 'คุย:' ด้วย CDP mouse · ไม่โดนมอนดึงไปตีอีก\n\n🗺 ไม่กลับรังบอสเปล่า: map 27 ไม่ถูก set เป็น lastFarmMap · อยู่รังบอส+บอสตาย → กลับเมืองแทน\n\n🧪 Tessa: หา 'Tessa the Alchemist' (EN) + seed (117,121) · ไม่เจอในแมพ → วาร์ปไป Solhaven ก่อน\n\n⚡ สกิลพุ่ง: ใช้ได้ทั้ง field roam และ boss phase · log แสดง 'พุ่ง N ครั้ง (ใส่มอน M)'\n\n🔧 อื่นๆ: บอสโลก trigger เฉพาะ state='up' · จำ st.at ข้าม restart · cooldown 60 นาที · AUTO เปิดทุก tick ตอนสู้",
+  "at": "2026-10-31T12:25:00.508Z"
 }
